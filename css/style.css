@@ -394,3 +394,6 @@ padding: 100px 0 70px;
 .social{
     padding-top: 31px;
 }
+.social svg:hover{
+    color: rgb(39, 25, 233);
+}

@@ -39,6 +39,9 @@
     .clients{
         padding-bottom: 100px;
     }
+    .row{
+        transform: translateX(17%);
+    }
 }
 @media (max-width: 768px) {
     /* burger-menu */
@@ -133,6 +136,7 @@
     .section-about{
         font-size: 14px;
     }
+    
     .filter{
         flex-direction: column;
         align-items: end;
@@ -147,10 +151,22 @@
     .testimonials{
         padding: 60px 0;
     }
+    .row{
+        transform: translateX(0%);
+    }
+    }
 }
 @media (max-width: 680px){
     .img-mac{
         width: 450px;
+    }
+    .footer-title {
+        text-align: center;
+        padding-top: 17px;
+    }
+    .social {
+        padding-top: 0px;
+        text-align: center;
     }
 }
 @media (max-width: 480px) {
@@ -279,6 +295,9 @@
     }
     .about-list-item{
         font-size: 13px;
+    }
+    .form-btn {
+        margin-right: 9px;
     }
 }
 @media (max-width: 320px) {
